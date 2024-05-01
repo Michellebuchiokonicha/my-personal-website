@@ -121,15 +121,23 @@ const About = () => {
         initial = 'hidden'
         animate='show'
         exit='hidden'
-         className='h2'>Captivating <span className='text-accent'>stories</span> birth magnificient designs</motion.h2>
+         className='h2'>I am<span className='text-accent'>Software Engineer</span> I design and maintain applications.</motion.h2>
         <motion.p
         variants={fadeIn('right', 0.4)} 
         initial = 'hidden'
         animate='show'
         exit='hidden'
-         className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>10 years ago, I began freelancing as a developer, sdince then I have
-           done remote work for agencies, consulted for startups, and collaborated
-            with consumers use
+         className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
+          I am a Software Engineer, I design and maintain applications for various clients and industries, using various technologies.
+           I am passionate about creating digital products with thoughtful user experience and resolving issues with simple and critical solutions. 
+           With a Bachelor's degree in Microbiology from the University of Nigeria, Nsukka, and multiple certificates in Computer Science, Software 
+           Development, Software Engineering, Computer Programming, Customer Discovery, and Digital Marketing from various institutions, I have gained 
+           a diverse and comprehensive skill set that allows me to tackle different challenges and opportunities in the tech field. I have also co-founded
+            and led Aricah, a mentorship and networking platform for technologists, and been an Ambassador for Women Techmakers, empowering women in tech through
+             events, content, and mentoring.
+              {/* I have been nominated as the Software Developer (Front-end) of the year for my work on Web3/ DAO, e-commerce, and crypto-friendly
+              applications. I am currently aligning my career towards software engineering management, as I have strong communication and technical skills, as well as experience
+               in leading groups and managing project teams. */}
             </motion.p>
             {/* counters */}
             <motion.div
