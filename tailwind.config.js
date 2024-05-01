@@ -23,7 +23,8 @@ module.exports = {
     extend: {
       colors: {
         primary: '#131424',
-        secondary: '#393A47',
+        secondary: '#fff',
+        // secondary: '#393A47',
         accent: '#F13024',
       },
       backgroundImage: {
