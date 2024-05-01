@@ -12,11 +12,12 @@ const Header = () => {
       <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6">
         {/* logo */}
         <Link href={' '}>
-        <Image 
+        {/* <Image 
         src={'/logo.svg'}
          width={220}
           height={48} alt=""  
-          priority={true}/>
+          priority={true}/> */}
+          Buchi Michelle Okonicha
         </Link>
         <Socials />
       </div>

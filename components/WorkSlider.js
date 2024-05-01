@@ -66,18 +66,7 @@ const WorkSlider = () => {
   return (
   <Swiper 
   spaceBetween={10}
-  
-  // breakpoints={{
-  //   320: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 15
-  //   },
-  //   640: {
-  //     slidesPerView: 3,
-  //     spaceBetween: 15
-  //   }
-    
-  // }}
+
    pagination={{
      clickable: true
    }}
