@@ -26,8 +26,8 @@ const Home = () => {
         initial="hidden" 
         animate="show"
         exit='hidden'
-         className="h1">Transforming Ideas <br /> Into{' '}
-        <span className="text-accent"> Digital Reality</span>
+         className="h1">Hello, I am Michelle <br /> Buchi{' '}
+        <span className="text-accent"> Okonicha</span>
         </motion.h1>
         <motion.p
          variants={fadeIn('down', 0.3)} 
@@ -68,7 +68,7 @@ const Home = () => {
      transition={{duration: 1, ease: 'easeInOut'}}
      className="w-full h-full max-w-[737px] max-h-[678px] 
      absolute -bottom-32 lg:bottom-0 lg:right-[8%]">
-     <Avatar />
+     {/* <Avatar /> */}
      </motion.div>
     </div>
   </div>

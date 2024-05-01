@@ -17,7 +17,7 @@ const Header = () => {
          width={220}
           height={48} alt=""  
           priority={true}/> */}
-          Buchi Michelle Okonicha
+          M . B . Okonicha
         </Link>
         <Socials />
       </div>
