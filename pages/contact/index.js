@@ -15,8 +15,7 @@ const Contact = () => {
          className='h2 text-center mb-12'>let us
          <span className='text-accent'> connect.</span>
          <div className='text-sm'><a href="mailto:michelleokonicha@gmail.com">michelleokonicha@gmail.com</a></div>
-         </motion.h2>
-         
+         </motion.h2>  
          <motion.form 
           variants={fadeIn('up', 0.4)}
           initial="hidden"
