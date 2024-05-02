@@ -26,8 +26,8 @@ const Work = () => {
            animate="show"
            exit='hidden'
           className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-            Lorem ipsum dehjfdnkjfbbjdswkifuvdhbcjxh fudscguygfvkucdsbkdfusdchj
-            sdiuhdvfujadbsjhbdfkjdsvchjbcxnmx bvcdfjkbdvcshdvhvbsjiv  bjsvhc
+            I have worked across industries both locally and internationally. Industries include: 
+            E-commerce, cloud infrastructure, mixed development, web3, hospitality.
           </motion.p>
         </div>
            {/* slider */}

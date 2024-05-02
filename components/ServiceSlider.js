@@ -12,6 +12,7 @@ import {
 import 'swiper/css'
 import 'swiper/css/free-mode'
 import 'swiper/css/pagination';
+import Link from 'next/link';
 
 // import moduls
 import {FreeMode, Pagination, freeMode, pagination} from 'swiper'
@@ -20,33 +21,53 @@ import {FreeMode, Pagination, freeMode, pagination} from 'swiper'
 export const serviceData = [
   {
     icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Web Development',
+    description: 'Checkout my Github and the projects I have built',
+    link: 'https://github.com/michellebuchiokonicha',
+    name: 'Github'
   },
   {
     icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Technical Writing',
+    description: 'Checkout my blog',
+    link: 'https://dev.to/michellebuchiokonicha',
+    name: 'Blog'
   },
   {
     icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'UI/UX Design',
+    description: 'Check us out on Dribble',
+    link: 'https://dribbble.com/Buchi_Michelle',
+    name: 'Aricah'
+  },
+  {
+    icon: <RxDesktop />,
+    title: 'My Community: Aricah',
+    description: 'Check us out on LinkedIn',
+    link: 'https://www.linkedin.com/company/79571718/admin/feed/posts/',
+    name: 'Aricah'
   },
   {
     icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'My Youtube Channel',
+    description: 'Checkout my Youtube channel',
+    link: 'https://www.youtube.com/channel/UCS5-SujFZvqPmofowcbQA6g',
+    name: 'Youtube'
   },
   {
     icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'My email for collaborations',
+    description: 'Send a mail',
+    link: 'mailto:michelleokonicha@gmail.com',
+    name: 'Email'
   },
 ];
 
 const ServiceSlider = () => {
-  return <Swiper breakpoints={{
+  return (
+    <div>
+      <h4 className='h4 text-center text-bold-40'>Hold down and Swipe to see other offerings</h4>
+        <Swiper breakpoints={{
     320: {
       slidesPerView: 1,
       spaceBetween: 15
@@ -75,6 +96,15 @@ const ServiceSlider = () => {
               <div className='mb-8'>
               <div className='mb-2 text-lg'>{item.title}</div>
               <p className='max-w-[350px] leading-normal'>{item.description}</p>
+              {/* link starts */}
+              <Link
+        className='relative flex items-center group hover:text-accent transition-all duration-300'
+         href={item.link}>{item.name}
+          {/* tooltip */}
+      
+          
+          </Link>
+              {/* link ends */}
               </div>
             </div>
             {/* arrow */}
@@ -86,7 +116,11 @@ const ServiceSlider = () => {
         )
       })
     }
-  </Swiper>;
+    
+  </Swiper>
+    </div>
+
+  );
 };
 
 export default ServiceSlider;

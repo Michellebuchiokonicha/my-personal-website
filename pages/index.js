@@ -14,7 +14,7 @@ import { fadeIn } from '../variants';
 
 const Home = () => {
   return (
-  <div className="bg-primary/60 h-full">
+  <div className="bg-primary/60 h-full pt-20">
     {/* check starts */}
     <div className="w-full bg-gradient-to-r from-primary/10 via-black/30 
     to-black/10">

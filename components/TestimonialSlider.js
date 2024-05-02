@@ -3,23 +3,23 @@ export const testimonialData = [
   {
     image: '/t-avt-1.png',
     name: 'Anne Smith',
-    position: 'Customer',
+    position: 'Ardent Reader',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'I love reading books and writng',
   },
   {
     image: '/t-avt-2.png',
     name: 'Jane Doe',
-    position: 'Customer',
+    position: 'Speaker',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Speaking is a joy, it fills me up',
   },
   {
     image: '/t-avt-3.png',
     name: 'Jhon Doe',
-    position: 'Customer',
+    position: 'Builder',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'I love love to build. I have built communities and nurtured people.BUt now, I want to build products.',
   },
 ];
 
@@ -59,10 +59,10 @@ const TestimonialSlider = () => {
           <div className='w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto
            xl:mx-0'>
             <div className='flex flex-col justify-center text-center'>
-              <div className='mb-2 mx-auto'> 
+              {/* <div className='mb-2 mx-auto'> 
                 <Image src={person.image} width={100} height={100} alt=''/>
-              </div>
-              <div className='text-lg'>{person.name}</div>
+              </div> */}
+              {/* <div className='text-lg'>{person.name}</div> */}
               <div className='text-[12px] uppercase font-extralight tracking-widest'>{person.position}</div>
             </div>
           </div>

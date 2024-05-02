@@ -21,15 +21,16 @@ const Services = () => {
            initial="hidden" 
            animate="show"
            exit='hidden'
-            className="h2 xl:mt-8">My Services <span className="text-accent">.</span></motion.h2>
+            className="h2 xl:mt-8">My Offerings <span className="text-accent">.</span></motion.h2>
           <motion.p 
            variants={fadeIn('up', 0.4)}
            initial="hidden" 
            animate="show"
            exit='hidden'
           className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-            Lorem ipsum dehjfdnkjfbbjdswkifuvdhbcjxh fudscguygfvkucdsbkdfusdchj
-            sdiuhdvfujadbsjhbdfkjdsvchjbcxnmx bvcdfjkbdvcshdvhvbsjiv  bjsvhc
+            I am multifaceted. A software engineer who is also a technical writer and a certified technical speaker.
+            I have also built numerous communities including Aricah, Google Developers Group and Women Techmakers community.
+            I carryout workshops, trainings and mentorship.
           </motion.p>
         </div>
            {/* slider */}

@@ -6,8 +6,9 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaWordpress,
+  FaPython,
   FaFigma,
+  FaPhp,
 } from "react-icons/fa";
 
 import {
@@ -26,18 +27,19 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key='' />,
+          <FaCss3  key=''/>,
+          <FaJs  key=''/>,
+          <FaReact key=''/>,
+          <SiNextdotjs  key='' />,
+          <SiFramer  key=''/>,
+          <FaPython  key=''/>,
+          <FaPhp  key=''/>
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [<FaFigma  key=''/>, <SiAdobephotoshop  key=''/>],
       },
     ],
   },
@@ -45,12 +47,16 @@ const aboutData = [
     title: 'awards',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        title: 'WTM High Impact Award - Awardee by Google',
+        stage: '2023',
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: 'Community Recognition - Awardee Google Developers Group',
+        stage: '2024',
+      },
+      {
+        title: 'Emerging Software Engineer of the year - Techtrend Africa',
+        stage: '2021',
       },
     ],
   },
@@ -58,16 +64,28 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Software Engineer - Fugoku',
+        stage: '2024 - Present',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Founder - Aricah',
+        stage: '2021 - Present',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Software Engineer - Landmark Africa',
+        stage: '2022 - 2024',
+      },
+      {
+        title: 'Software Engineer - Kwek',
+        stage: '2021 - 2022',
+      },
+      {
+        title: 'Frontend Engineer - HNG Internship',
+        stage: '2021 - 2021',
+      },
+      {
+        title: 'Ambassador - Google Women Techmakers',
+        stage: '2021 - 2021',
       },
     ],
   },
@@ -75,16 +93,20 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Microbiology - University of Nigeria, Nsukka',
+        stage: '2013 - 2018',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'Software Development - Zuri Training Institute',
+        stage: '2021 - 2021',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Software Development - FreeCode Camp',
+        stage: '2021 - 2022',
+      },
+      {
+        title: 'Intro to computer science - Harvard CS50',
+        stage: '2022 -2023',
       },
     ],
   },
@@ -121,20 +143,16 @@ const About = () => {
         initial = 'hidden'
         animate='show'
         exit='hidden'
-         className='h2'>I am<span className='text-accent'>Software Engineer</span> I design and maintain applications.</motion.h2>
+         className='h2'>I  am<span className='text-accent'> Software </span>Engineer </motion.h2>
         <motion.p
         variants={fadeIn('right', 0.4)} 
         initial = 'hidden'
         animate='show'
         exit='hidden'
          className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
-          I am a Software Engineer, I design and maintain applications for various clients and industries, using various technologies.
+          I design and maintain applications. I design and maintain applications for various clients and industries, using various technologies.
            I am passionate about creating digital products with thoughtful user experience and resolving issues with simple and critical solutions. 
-           With a Bachelor's degree in Microbiology from the University of Nigeria, Nsukka, and multiple certificates in Computer Science, Software 
-           Development, Software Engineering, Computer Programming, Customer Discovery, and Digital Marketing from various institutions, I have gained 
-           a diverse and comprehensive skill set that allows me to tackle different challenges and opportunities in the tech field. I have also co-founded
-            and led Aricah, a mentorship and networking platform for technologists, and been an Ambassador for Women Techmakers, empowering women in tech through
-             events, content, and mentoring.
+          
               {/* I have been nominated as the Software Developer (Front-end) of the year for my work on Web3/ DAO, e-commerce, and crypto-friendly
               applications. I am currently aligning my career towards software engineering management, as I have strong communication and technical skills, as well as experience
                in leading groups and managing project teams. */}
@@ -151,7 +169,7 @@ const About = () => {
                 <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute
                    after:top-0 after:right-0'>
                   <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                    <CountUp start={0} end={10} duration={5}/> +
+                    <CountUp start={0} end={4} duration={5}/> +
                   </div>
                   <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>Years of experience</div>
                 </div>
@@ -159,7 +177,7 @@ const About = () => {
                 <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute
                    after:top-0 after:right-0'>
                   <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                    <CountUp start={0} end={250} duration={5}/> +
+                    <CountUp start={0} end={14} duration={5}/> +
                   </div>
                   <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                     Satisfied clients 
@@ -168,7 +186,7 @@ const About = () => {
                 <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute
                    after:top-0 after:right-0'>
                   <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                    <CountUp start={0} end={650} duration={5}/> +
+                    <CountUp start={0} end={15} duration={5}/> +
                   </div>
                   <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                     Finished projects
@@ -177,7 +195,7 @@ const About = () => {
                 {/* awards */}
                 <div className='relative flex-1'>
                   <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                    <CountUp start={0} end={8} duration={5}/> +
+                    <CountUp start={0} end={3} duration={5}/> +
                   </div>
                   <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                     Winning awards
