@@ -35,9 +35,9 @@ const Home = () => {
          animate="show"
          exit='hidden'
          className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
-          Lorem ipsum dolor sit amet consecteture asdisdsv
-          dfvejhsdcjkfdvklfdvfjkdfvnjksdklnvfhgjlbnxkcfdjkdsdds
-          dsjfgkfgnideotrbhjdfkvbnkjfsdlcoildscfbj
+           I design and maintain applications. I design and maintain applications for various clients and industries, using various technologies.
+           I am passionate about creating digital products with thoughtful user experience and resolving issues with simple and critical solutions. 
+
         </motion.p>
         {/*  */}
         <div className="flex justify-center xl:hidden relative">
